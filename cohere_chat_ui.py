@@ -366,7 +366,7 @@ def render_sidebar():
 # ───────────────────────────────────────────────────────────────────
 def render_header():
     """Render main header and title."""
-    st.markdown("<h1 style='text-align: center; font-size: 55px; font-weight: 900; letter-spacing: -1px;'>VEXEL</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 55px; font-weight: 900; letter-spacing: -1px;'>VEXEL AI</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 18px; font-weight: 500; opacity: 0.85; margin-top: -15px;'>Intelligent AI Assistant • Powered by Advanced Technology 💭</p>", unsafe_allow_html=True)
     st.markdown("---")
 
@@ -592,6 +592,7 @@ if st.session_state.get('scroll_to_top', False):
     st.session_state.scroll_to_top = False
 
 render_export_controls()
+
 
 
 
